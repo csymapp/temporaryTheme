@@ -2140,7 +2140,7 @@ td {
 }
 
 .copy-to-clipboard {
-    background-image: url(/themes/default/images/clippy.svg);
+    background-image: url(//images/clippy.svg);
     background-position: 50% 50%;
     background-size: 16px 16px;
     background-repeat: no-repeat;
@@ -2988,8 +2988,8 @@ input.form-control {
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url(/themes/default/fonts/fontawesome-webfont.eot?v=4.3.0);
-    src: url('/themes/default/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url(/themes/default/fonts/fontawesome-webfont.woff2) format('woff2'), url(/themes/default/fonts/fontawesome-webfont.woff?v=4.3.0) format('woff'), url(/themes/default/fonts/fontawesome-webfont.ttf?v=4.3.0) format('truetype'), url('/themes/default/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    src: url(/fonts/fontawesome-webfont.eot);
+    src: url('/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url(/fonts/fontawesome-webfont.woff2) format('woff2'), url(/fonts/fontawesome-webfont.woff) format('woff'), url(/fonts/fontawesome-webfont.ttf) format('truetype'), url('/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
     font-weight: 400;
     font-style: normal
 }

@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <title>{{#meta.title}}{{meta.title}} - {{/meta.title}}{{config.site_title}}</title>
+  <!-- <title>{{#meta.title}}{{meta.title}} - {{/meta.title}}{{config.site.title}}</title>
     {{#meta.metadata.description}}<meta name="description" content="{{meta.metadata.description}}">{{/meta.metadata.description}}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{config.base_url}}/styles/uf_style.css">
     <link rel="stylesheet" href="{{config.base_url}}/styles/cstyle.css">
     <link rel="stylesheet" href="{{config.base_url}}/sites/gsSite1/styles/cstyle.css"> -->
-  <title> {{#meta.title}}{{meta.title}} - {{/meta.title}}{{config.site_title}}</title>
+  <title> {{#meta.title}}{{meta.title}} - {{/meta.title}}{{config.site.title}}</title>
   {{#meta.metadata.description}}
   <meta name="description" content="{{meta.metadata.description}}" />{{/meta.metadata.description}}
   {{#meta.metadata.refresh}}
@@ -51,7 +51,7 @@
       <nav class="custom">
         <div class="nav-wrapper" style="background-color: #52372A;">
           <a href="{{config.base_url}}/" class="brand-logo"
-            style="padding-left: 2rem; text-transform: uppercase;font-size: 1.4em;">{{config.site_title}}</a>
+            style="padding-left: 2rem; text-transform: uppercase;font-size: 1.4em;">{{config.site.title}}</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 
         </div>
@@ -61,7 +61,7 @@
     <nav id="sidebar" style="background-color:#8A5E3B; color: #fff;">
       <div id="header-wrapper">
         <div id="header" style="background-color:#8A5E3B !important;;">
-          <a id="logo" href="#"><span class="logo-title" style="font-size: 1.4em;"> {{config.site_title}}</span>
+          <a id="logo" href="#"><span class="logo-title" style="font-size: 1.4em;"> {{config.site.title}}</span>
           </a>
           <form class="searchbox" action="{{config.base_url}}/">
             <label for="search-by"><i class="fa fa-search"></i></label>
